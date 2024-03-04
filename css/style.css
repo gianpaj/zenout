@@ -12,8 +12,8 @@ nav .brand-logo {
 }
 #seed {
   margin-top: 7px;
-  height:50px;
-  width:50px;
+  height: 50px;
+  width: 50px;
 }
 
 p {
@@ -25,19 +25,17 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 #quoteText {
   font-size: 30px;
 }
-
 
 .card-image img {
   height: 200px;
@@ -51,7 +49,7 @@ p {
   margin: auto;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -61,19 +59,23 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
 }
 
 .icon-block {
-  height:300px;
+  height: 300px;
   padding-top: 10px;
-
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.icon-block svg {
+  width: 4rem;
+  height: 4rem;
 }
 
 footer.page-footer {
@@ -81,15 +83,14 @@ footer.page-footer {
   background-image: url("stardust.png");
 }
 
-
 #ageInput {
-    margin: 60px 30px 0 30px
+  margin: 60px 30px 0 30px;
 }
 
 #ageInput > .ui-slider-handle {
-    text-decoration: none;
-    width: 35px;
-    text-align: center;
+  text-decoration: none;
+  width: 35px;
+  text-align: center;
 }
 
 .focus {
@@ -97,29 +98,14 @@ footer.page-footer {
   color: white;
   height: 300px;
   box-shadow: 0 0 5px 5px white inset;
-  /*width: 100px;*/
-  /*background-color: #cfd8dc;*/
-}
-
-.material-icons: {
-  color: white;
 }
 
 .beats {
-/*background-color: red;*/
-background-image: url("swirl_pattern.png");
-}
-
-#beatTitle {
-  /*padding-top: 25px;*/
-}
-
-.create {
-  padding: 50px 0px 75px 0px;
+  background-image: url("swirl_pattern.png");
 }
 
 #phones {
-  padding: 75px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
 }
 
 .create {
@@ -128,7 +114,7 @@ background-image: url("swirl_pattern.png");
 }
 
 .thumb {
-  display:none;
+  display: none;
 }
 
 .fa {
